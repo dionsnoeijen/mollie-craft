@@ -1,0 +1,6 @@
+
+{% if value == '' %}
+    <p><span class="status disabled"></span> Niet betaald, waarschijnlijk is het betalingsproces niet afgemaakt.</p>
+{% else %}
+    <p><span class="status live"></span> Betaald</p>
+{% endif %}
